@@ -5,7 +5,7 @@
 # Model 1-5 are fitted with an iterative approach and models 1-4 and 6-8 are fitted with an numerical approach.  
 # Experimental disease transmission data contains metadata (column 1:7) and measurements of the furthest infected plant in the row on each timepoint (0-17days) (column 8:16)
 # Each row in the data represents a single replicate in the experiment. 
-# Replicates where the inoculated (i.e. 1st) seedling did not show disease symptoms were removed from this data. 
+# Replicates where the inoculated (i.e. 1st) seedling was mock-inoculated (negative control) or was inoculated with the pathogen but did not show disease symptoms were removed from this data. 
 ####################
 
 #### General prep ####
